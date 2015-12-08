@@ -4,6 +4,13 @@ The program is tested on ROS Fuerte, on a laptop computer with 2.5 GHz quad core
 
 Wiki Webpage: http://wiki.ros.org/demo_rgbd
 
+From Wiki above:
+Depth Enhanced Monocular Odometry (RGBD camera version)
+Maintainer: Ji Zhang <zhangji AT cmu DOT edu>
+Author: Ji Zhang
+License: LGPL
+Source: git https://github.com/jizhang-cmu/demo_rgbd.git
+
 A slimmed down version of the program (without the bundle adjustment) is available for running on embedded systems
 
 GitHub Code: https://github.com/jizhang-cmu/demo_rgbd_slimmed.git
