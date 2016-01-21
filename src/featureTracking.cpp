@@ -219,7 +219,7 @@ int main(int argc, char** argv)
   pyrLast = cvCreateImage(pyrSize, IPL_DEPTH_32F, 1);
 
   ros::Subscriber imageDataSub = nh.subscribe<sensor_msgs::Image>
-                                 ("/camera/rgb/image_rect", 1, imageDataHandler);
+                                 ("/camera/rgb/image_rect_color", 1, imageDataHandler);
 
   ros::Publisher imagePointsLastPub = nh.advertise<sensor_msgs::PointCloud2> ("/image_points_last", 5);
   imagePointsLastPubPointer = &imagePointsLastPub;
